@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import { Cep } from './components/Cep'
 
 function App() {
   return (
     <div className="App">
-      <p>Hello world!!</p>
+      <Cep/>
     </div>
   )
 }
